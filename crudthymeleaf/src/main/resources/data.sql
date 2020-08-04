@@ -1,2 +1,2 @@
 INSERT INTO recetas (nombre, foto, preparacion, dificultad) 
-VALUES ('Arroz relleno', '7f5cdd28c77b4199944febe905e7ac61', 'texto textot', 'Fácil');
+VALUES ('Arroz relleno', '56157028a68c43c2bf975686851eec65', 'texto textot', 'Fácil');
