@@ -18,6 +18,8 @@ public class Receta {
 	private Long id;
 	
 	//@Column(name = "recetas_nombre")
+	private String autor; 
+
 	private String nombre;
 	
 	private UUID foto;
@@ -33,6 +35,20 @@ public class Receta {
 	public void setId(Long id) {
 		this.id = id;
 	}
+	
+	
+	
+	
+	public String getAutor() {
+		return autor;
+	}
+
+	public void setAutor(String autor) {
+		this.autor = autor;
+	}
+
+	
+	
 	
 	public String getNombre() {
 		return nombre;
@@ -65,5 +81,8 @@ public class Receta {
 	public void setDificultad(String dificultad) {
 		this.dificultad = dificultad;
 	}
+	
+	
+	
 
 }
